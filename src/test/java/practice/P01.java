@@ -39,7 +39,7 @@ public class P01 extends TestBase {
         }
         Actions actions=new Actions(driver);
         actions.sendKeys(Keys.PAGE_DOWN).perform();
-        // apply butonuna tıklayınız.
+        // apply butonuna tıklayınız.git
         driver.findElement(By.xpath("//button[@id='send']")).click();
     }
 }
